@@ -25,16 +25,16 @@ class contest
 		}
 		void test()
 		{
-			for(i=0;i<c;i++)
+			for(i=0;i<c;i++)//for all the contests
 			{
 				h[i]=0;
 				n[i]=p[i];
-				for(j=2;j<p[i];j++)
+				for(j=2;j<p[i];j++)//checking whether factors of p[i]
 				{
 					if(p[i]%j==0)
 					{
 						l=0;
-						for(k=2;k<j;k++)
+						for(k=2;k<j;k++)//checking whether the factor is prime or not
 						{
 							if(j%k==0)
 							{
