@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<iostream>
+#include<math.h>
 
 class contest
 {
@@ -29,7 +30,7 @@ class contest
 			{
 				h[i]=p[i];
 				n[i]=0;
-				for(j=2;j<p[i];j++)//checking whether factors of p[i]
+				for(j=2;j<sqrt(p[i]);j++)//checking whether factors of p[i]
 				{
 					if(p[i]%j==0)
 					{
